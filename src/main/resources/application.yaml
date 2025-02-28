@@ -1,5 +1,5 @@
 server:
-  port: 9092
+  port: 9094
   
 spring:
  datasource:
@@ -10,7 +10,7 @@ spring:
    
  jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
       
 eureka:
  instance:
